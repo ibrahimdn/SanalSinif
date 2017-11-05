@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A0C7AF81FAFA9D9008571FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0C7AF71FAFA9D9008571FB /* AppDelegate.swift */; };
+		6A0C7AFA1FAFA9D9008571FB /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0C7AF91FAFA9D9008571FB /* FirstViewController.swift */; };
+		6A0C7AFC1FAFA9D9008571FB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0C7AFB1FAFA9D9008571FB /* SecondViewController.swift */; };
+		6A0C7AFF1FAFA9D9008571FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A0C7AFD1FAFA9D9008571FB /* Main.storyboard */; };
+		6A0C7B011FAFA9D9008571FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A0C7B001FAFA9D9008571FB /* Assets.xcassets */; };
+		6A0C7B041FAFA9D9008571FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A0C7B021FAFA9D9008571FB /* LaunchScreen.storyboard */; };
+		6A0C7B0F1FAFA9DA008571FB /* Sanal_S_n_fTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0C7B0E1FAFA9DA008571FB /* Sanal_S_n_fTests.swift */; };
+		6A0C7B1A1FAFA9DA008571FB /* Sanal_S_n_fUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0C7B191FAFA9DA008571FB /* Sanal_S_n_fUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A0C7B0B1FAFA9DA008571FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A0C7AEC1FAFA9D9008571FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A0C7AF31FAFA9D9008571FB;
+			remoteInfo = "Sanal Sınıf";
+		};
+		6A0C7B161FAFA9DA008571FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A0C7AEC1FAFA9D9008571FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A0C7AF31FAFA9D9008571FB;
+			remoteInfo = "Sanal Sınıf";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A0C7AF41FAFA9D9008571FB /* Sanal Sınıf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sanal Sınıf.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A0C7AF71FAFA9D9008571FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6A0C7AF91FAFA9D9008571FB /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		6A0C7AFB1FAFA9D9008571FB /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		6A0C7AFE1FAFA9D9008571FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A0C7B001FAFA9D9008571FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A0C7B031FAFA9D9008571FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6A0C7B051FAFA9D9008571FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A0C7B0A1FAFA9DA008571FB /* Sanal SınıfTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sanal SınıfTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A0C7B0E1FAFA9DA008571FB /* Sanal_S_n_fTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sanal_S_n_fTests.swift; sourceTree = "<group>"; };
+		6A0C7B101FAFA9DA008571FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A0C7B151FAFA9DA008571FB /* Sanal SınıfUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sanal SınıfUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A0C7B191FAFA9DA008571FB /* Sanal_S_n_fUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sanal_S_n_fUITests.swift; sourceTree = "<group>"; };
+		6A0C7B1B1FAFA9DA008571FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A0C7AF11FAFA9D9008571FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A0C7B071FAFA9DA008571FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A0C7B121FAFA9DA008571FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A0C7AEB1FAFA9D9008571FB = {
+			isa = PBXGroup;
+			children = (
+				6A0C7AF61FAFA9D9008571FB /* Sanal Sınıf */,
+				6A0C7B0D1FAFA9DA008571FB /* Sanal SınıfTests */,
+				6A0C7B181FAFA9DA008571FB /* Sanal SınıfUITests */,
+				6A0C7AF51FAFA9D9008571FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A0C7AF51FAFA9D9008571FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A0C7AF41FAFA9D9008571FB /* Sanal Sınıf.app */,
+				6A0C7B0A1FAFA9DA008571FB /* Sanal SınıfTests.xctest */,
+				6A0C7B151FAFA9DA008571FB /* Sanal SınıfUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A0C7AF61FAFA9D9008571FB /* Sanal Sınıf */ = {
+			isa = PBXGroup;
+			children = (
+				6A0C7AF71FAFA9D9008571FB /* AppDelegate.swift */,
+				6A0C7AF91FAFA9D9008571FB /* FirstViewController.swift */,
+				6A0C7AFB1FAFA9D9008571FB /* SecondViewController.swift */,
+				6A0C7AFD1FAFA9D9008571FB /* Main.storyboard */,
+				6A0C7B001FAFA9D9008571FB /* Assets.xcassets */,
+				6A0C7B021FAFA9D9008571FB /* LaunchScreen.storyboard */,
+				6A0C7B051FAFA9D9008571FB /* Info.plist */,
+			);
+			path = "Sanal Sınıf";
+			sourceTree = "<group>";
+		};
+		6A0C7B0D1FAFA9DA008571FB /* Sanal SınıfTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A0C7B0E1FAFA9DA008571FB /* Sanal_S_n_fTests.swift */,
+				6A0C7B101FAFA9DA008571FB /* Info.plist */,
+			);
+			path = "Sanal SınıfTests";
+			sourceTree = "<group>";
+		};
+		6A0C7B181FAFA9DA008571FB /* Sanal SınıfUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6A0C7B191FAFA9DA008571FB /* Sanal_S_n_fUITests.swift */,
+				6A0C7B1B1FAFA9DA008571FB /* Info.plist */,
+			);
+			path = "Sanal SınıfUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A0C7AF31FAFA9D9008571FB /* Sanal Sınıf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A0C7B1E1FAFA9DA008571FB /* Build configuration list for PBXNativeTarget "Sanal Sınıf" */;
+			buildPhases = (
+				6A0C7AF01FAFA9D9008571FB /* Sources */,
+				6A0C7AF11FAFA9D9008571FB /* Frameworks */,
+				6A0C7AF21FAFA9D9008571FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sanal Sınıf";
+			productName = "Sanal Sınıf";
+			productReference = 6A0C7AF41FAFA9D9008571FB /* Sanal Sınıf.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A0C7B091FAFA9DA008571FB /* Sanal SınıfTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A0C7B211FAFA9DA008571FB /* Build configuration list for PBXNativeTarget "Sanal SınıfTests" */;
+			buildPhases = (
+				6A0C7B061FAFA9DA008571FB /* Sources */,
+				6A0C7B071FAFA9DA008571FB /* Frameworks */,
+				6A0C7B081FAFA9DA008571FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A0C7B0C1FAFA9DA008571FB /* PBXTargetDependency */,
+			);
+			name = "Sanal SınıfTests";
+			productName = "Sanal SınıfTests";
+			productReference = 6A0C7B0A1FAFA9DA008571FB /* Sanal SınıfTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6A0C7B141FAFA9DA008571FB /* Sanal SınıfUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A0C7B241FAFA9DA008571FB /* Build configuration list for PBXNativeTarget "Sanal SınıfUITests" */;
+			buildPhases = (
+				6A0C7B111FAFA9DA008571FB /* Sources */,
+				6A0C7B121FAFA9DA008571FB /* Frameworks */,
+				6A0C7B131FAFA9DA008571FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A0C7B171FAFA9DA008571FB /* PBXTargetDependency */,
+			);
+			name = "Sanal SınıfUITests";
+			productName = "Sanal SınıfUITests";
+			productReference = 6A0C7B151FAFA9DA008571FB /* Sanal SınıfUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A0C7AEC1FAFA9D9008571FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ibrahim;
+				TargetAttributes = {
+					6A0C7AF31FAFA9D9008571FB = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					6A0C7B091FAFA9DA008571FB = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6A0C7AF31FAFA9D9008571FB;
+					};
+					6A0C7B141FAFA9DA008571FB = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6A0C7AF31FAFA9D9008571FB;
+					};
+				};
+			};
+			buildConfigurationList = 6A0C7AEF1FAFA9D9008571FB /* Build configuration list for PBXProject "Sanal Sınıf" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A0C7AEB1FAFA9D9008571FB;
+			productRefGroup = 6A0C7AF51FAFA9D9008571FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A0C7AF31FAFA9D9008571FB /* Sanal Sınıf */,
+				6A0C7B091FAFA9DA008571FB /* Sanal SınıfTests */,
+				6A0C7B141FAFA9DA008571FB /* Sanal SınıfUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A0C7AF21FAFA9D9008571FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A0C7B041FAFA9D9008571FB /* LaunchScreen.storyboard in Resources */,
+				6A0C7B011FAFA9D9008571FB /* Assets.xcassets in Resources */,
+				6A0C7AFF1FAFA9D9008571FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A0C7B081FAFA9DA008571FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A0C7B131FAFA9DA008571FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A0C7AF01FAFA9D9008571FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A0C7AFC1FAFA9D9008571FB /* SecondViewController.swift in Sources */,
+				6A0C7AF81FAFA9D9008571FB /* AppDelegate.swift in Sources */,
+				6A0C7AFA1FAFA9D9008571FB /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A0C7B061FAFA9DA008571FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A0C7B0F1FAFA9DA008571FB /* Sanal_S_n_fTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A0C7B111FAFA9DA008571FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A0C7B1A1FAFA9DA008571FB /* Sanal_S_n_fUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A0C7B0C1FAFA9DA008571FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A0C7AF31FAFA9D9008571FB /* Sanal Sınıf */;
+			targetProxy = 6A0C7B0B1FAFA9DA008571FB /* PBXContainerItemProxy */;
+		};
+		6A0C7B171FAFA9DA008571FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A0C7AF31FAFA9D9008571FB /* Sanal Sınıf */;
+			targetProxy = 6A0C7B161FAFA9DA008571FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6A0C7AFD1FAFA9D9008571FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A0C7AFE1FAFA9D9008571FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6A0C7B021FAFA9D9008571FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A0C7B031FAFA9D9008571FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A0C7B1C1FAFA9DA008571FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A0C7B1D1FAFA9DA008571FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A0C7B1F1FAFA9DA008571FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Sanal Sınıf/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ibrhmdn.Sanal-S-n-f";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6A0C7B201FAFA9DA008571FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Sanal Sınıf/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ibrhmdn.Sanal-S-n-f";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6A0C7B221FAFA9DA008571FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Sanal SınıfTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ibrhmdn.Sanal-S-n-fTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sanal Sınıf.app/Sanal Sınıf";
+			};
+			name = Debug;
+		};
+		6A0C7B231FAFA9DA008571FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Sanal SınıfTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ibrhmdn.Sanal-S-n-fTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sanal Sınıf.app/Sanal Sınıf";
+			};
+			name = Release;
+		};
+		6A0C7B251FAFA9DA008571FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Sanal SınıfUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ibrhmdn.Sanal-S-n-fUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Sanal Sınıf";
+			};
+			name = Debug;
+		};
+		6A0C7B261FAFA9DA008571FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Sanal SınıfUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ibrhmdn.Sanal-S-n-fUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Sanal Sınıf";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A0C7AEF1FAFA9D9008571FB /* Build configuration list for PBXProject "Sanal Sınıf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A0C7B1C1FAFA9DA008571FB /* Debug */,
+				6A0C7B1D1FAFA9DA008571FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A0C7B1E1FAFA9DA008571FB /* Build configuration list for PBXNativeTarget "Sanal Sınıf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A0C7B1F1FAFA9DA008571FB /* Debug */,
+				6A0C7B201FAFA9DA008571FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6A0C7B211FAFA9DA008571FB /* Build configuration list for PBXNativeTarget "Sanal SınıfTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A0C7B221FAFA9DA008571FB /* Debug */,
+				6A0C7B231FAFA9DA008571FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6A0C7B241FAFA9DA008571FB /* Build configuration list for PBXNativeTarget "Sanal SınıfUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A0C7B251FAFA9DA008571FB /* Debug */,
+				6A0C7B261FAFA9DA008571FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A0C7AEC1FAFA9D9008571FB /* Project object */;
+}
