@@ -1,0 +1,6 @@
+framework module Pods_Sanal_S_n_f {
+  umbrella header "Pods-Sanal Sınıf-umbrella.h"
+
+  export *
+  module * { export * }
+}

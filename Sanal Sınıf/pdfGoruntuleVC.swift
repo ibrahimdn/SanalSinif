@@ -9,18 +9,40 @@
 import UIKit
 
 class pdfGoruntuleVC: UIViewController {
-
+    var url : String = ""
+    var gelenSayfaBilgisi = 0
+    @IBOutlet weak var webView: UIWebView!
+    
+    @IBOutlet weak var geriGit: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        print(gelenSayfaBilgisi)
+        if gelenSayfaBilgisi == 1 {
+            navigationBar.isHidden = true
+            
+            
+        }
         // Do any additional setup after loading the view.
     }
-
+    @IBOutlet weak var navigationBar: UINavigationBar!
+    func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+    }
+    @IBAction func geriClicked(_ sender: Any) {
+       self.dismiss(animated: true, completion: nil)
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        let fileURL = URL(fileURLWithPath: self.url)
+        let request = URLRequest(url: fileURL)
+        
+        self.webView.loadRequest(request)
+    }
 
     /*
     // MARK: - Navigation

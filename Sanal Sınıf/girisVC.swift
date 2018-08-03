@@ -7,29 +7,51 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseAuth
 
+@available(iOS 10.0, *)
 class girisVC: UIViewController {
-
+ 
+    @IBOutlet var kayit: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        passwordText.isSecureTextEntry=true
+        emailText.keyboardType = .emailAddress
+   
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+  
+    @IBOutlet weak var emailText: UITextField!
+    @IBOutlet weak var passwordText: UITextField!
+    @IBAction func kayitClicked(_ sender: Any) {
+        performSegue(withIdentifier: "toprofilOlus", sender: nil)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    @IBAction func girisClicked(_ sender: Any) {
+        
+        if emailText.text != "" && passwordText.text != "" {
+            
+            Auth.auth().signIn(withEmail: emailText.text!, password: passwordText.text!, completion: { (User, Error) in
+                
+                if Error != nil {
+                    let alert = UIAlertController(title: "Hata!", message: Error?.localizedDescription, preferredStyle: .alert)
+                    let alertButon = UIAlertAction(title: "Tamam", style: .cancel, handler: nil)
+                    alert.addAction(alertButon)
+                    self.present(alert, animated: true, completion: nil)
+                }else{
+                    UserDefaults.standard.set(User!.email, forKey: "kullanici")
+                    UserDefaults.standard.synchronize()
+                    let delegate : AppDelegate = UIApplication.shared.delegate as! AppDelegate
+                    delegate.kullanicihatirlama()
+                }
+            })
+            
+        }else{
+           
+            let alert = UIAlertController(title: "Hata!", message: "Email veya şifre boş bırakılamaz", preferredStyle: .alert)
+            let alertButon = UIAlertAction(title: "Tamam", style: .cancel, handler: nil)
+            alert.addAction(alertButon)
+            self.present(alert, animated: true, completion: nil)
+        }
     }
-    */
-
 }

@@ -10,15 +10,27 @@ import UIKit
 
 class duyuruCell: UITableViewCell {
 
+    
+    @IBOutlet weak var tarihLabel: UILabel!
+    @IBOutlet weak var baslikLabel: UILabel!
+    @IBOutlet weak var aciklamaLabel: UILabel!
+    @IBOutlet weak var dosyaAdiLabel: UILabel!
+    @IBOutlet weak var resimView: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        baslikLabel.sizeToFit()
+        baslikLabel.textAlignment = NSTextAlignment.center
+        baslikLabel.lineBreakMode = .byTruncatingTail
+        baslikLabel.numberOfLines = 2
+        aciklamaLabel.sizeToFit()
+        aciklamaLabel.adjustsFontSizeToFitWidth = true
+        aciklamaLabel.numberOfLines = 0
+       
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
-        // Configure the view for the selected state
     }
 
 }

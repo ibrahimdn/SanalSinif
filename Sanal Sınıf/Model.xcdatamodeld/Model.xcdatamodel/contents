@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="16E195" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+    <entity name="Duyuru" representedClassName="Duyuru" syncable="YES" codeGenerationType="class">
+        <attribute name="aciklama" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="baslik" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dersID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pdfURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="resim" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="zipURL" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Duyuru" positionX="-63" positionY="-18" width="128" height="135"/>
+    </elements>
 </model>

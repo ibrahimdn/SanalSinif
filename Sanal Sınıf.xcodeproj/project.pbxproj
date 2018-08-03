@@ -7,14 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1042468F4427463194A12FE3 /* Pods_Sanal_S_n_fTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7565298B9554A37D7E031A26 /* Pods_Sanal_S_n_fTests.framework */; };
+		1A06F42E20570DE700352AD6 /* odevEkleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A06F42D20570DE700352AD6 /* odevEkleVC.swift */; };
+		1A149EA61FED8CD6001206D0 /* derslerimVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A149EA51FED8CD6001206D0 /* derslerimVC.swift */; };
+		1A20A02E2051C32E0029B242 /* duyuruCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A20A02C2051C32E0029B242 /* duyuruCell2.swift */; };
+		1A20A02F2051C32E0029B242 /* duyuruCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A20A02D2051C32E0029B242 /* duyuruCell2.xib */; };
+		1A20A0322051C47A0029B242 /* duyuruCell3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A20A0302051C47A0029B242 /* duyuruCell3.swift */; };
+		1A20A0332051C47A0029B242 /* duyuruCell3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A20A0312051C47A0029B242 /* duyuruCell3.xib */; };
+		1A20A0362051C8020029B242 /* duyuruCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A20A0342051C8020029B242 /* duyuruCell1.swift */; };
+		1A20A0372051C8020029B242 /* duyuruCell1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A20A0352051C8020029B242 /* duyuruCell1.xib */; };
+		1A2482931FEDA18C00E92D00 /* popOverDersTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2482921FEDA18C00E92D00 /* popOverDersTableVC.swift */; };
+		1A2482FE1FF044A600E92D00 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2482FD1FF044A600E92D00 /* Toast.swift */; };
+		1A32483B20574EFC005353D9 /* pdfGoruntuleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A32483A20574EFC005353D9 /* pdfGoruntuleVC.swift */; };
+		1A4687F0204C756A00FCE3A3 /* post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4687EF204C756A00FCE3A3 /* post.swift */; };
+		1A47A6D12021339900D65610 /* resimSec.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A47A6D02021339900D65610 /* resimSec.png */; };
+		1A47A6F620226C4800D65610 /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A47A6F520226C4800D65610 /* CoreData.swift */; };
+		1A55C2AD2072F9A6009BB834 /* odevKontrolTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A55C2AC2072F9A6009BB834 /* odevKontrolTableVC.swift */; };
+		1A604C4220114C560007122C /* mainTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A604C4120114C560007122C /* mainTabBar.swift */; };
+		1A6F573A20A5093000EB81D5 /* ogrenciKontrolCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6F573820A5093000EB81D5 /* ogrenciKontrolCell.swift */; };
+		1A6F573B20A5093000EB81D5 /* ogrenciKontrolCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A6F573920A5093000EB81D5 /* ogrenciKontrolCell.xib */; };
+		1A6F573D20A8EF9600EB81D5 /* gruplarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6F573C20A8EF9600EB81D5 /* gruplarVC.swift */; };
+		1A6F573F20A90FAC00EB81D5 /* sohbetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6F573E20A90FAC00EB81D5 /* sohbetCell.swift */; };
+		1A746377203D7FFE00D9ABB6 /* profilresmi.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A746376203D7FFE00D9ABB6 /* profilresmi.png */; };
+		1A7F14C920628224004BC15C /* odevKontrolCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7F14C820628224004BC15C /* odevKontrolCell.swift */; };
+		1A81B799206F055000BC54CA /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A81B798206F055000BC54CA /* star.png */; };
+		1A9B3D1A20685F04008872A1 /* odevKontrolVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9B3D1920685F04008872A1 /* odevKontrolVC.swift */; };
+		1AA37DA21FF1D79D00F045ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AA37DA11FF1D79D00F045ED /* Main.storyboard */; };
+		1AA37DA61FF29C0000F045ED /* duyuruEkleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA37DA51FF29C0000F045ED /* duyuruEkleVC.swift */; };
+		1AC66B6C203E316B00F15416 /* duyuruCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC66B6B203E316B00F15416 /* duyuruCell.swift */; };
+		1AF6E51A20168FAD0063A4C1 /* Activities.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AF6E51020168FAD0063A4C1 /* Activities.png */; };
+		1AF6E51B20168FAD0063A4C1 /* Comment.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AF6E51120168FAD0063A4C1 /* Comment.png */; };
+		1AF6E51C20168FAD0063A4C1 /* Demo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AF6E51220168FAD0063A4C1 /* Demo.png */; };
+		1AF6E51D20168FAD0063A4C1 /* Dislike.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AF6E51320168FAD0063A4C1 /* Dislike.png */; };
+		1AF6E51E20168FAD0063A4C1 /* Explore.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AF6E51420168FAD0063A4C1 /* Explore.png */; };
+		1AF6E51F20168FAD0063A4C1 /* Home.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AF6E51520168FAD0063A4C1 /* Home.png */; };
+		1AF6E52020168FAD0063A4C1 /* Like.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AF6E51620168FAD0063A4C1 /* Like.png */; };
+		1AF6E52120168FAD0063A4C1 /* Options.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AF6E51720168FAD0063A4C1 /* Options.png */; };
+		1AF6E52220168FAD0063A4C1 /* Profil.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AF6E51820168FAD0063A4C1 /* Profil.png */; };
+		1AF6E52320168FAD0063A4C1 /* Videos.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AF6E51920168FAD0063A4C1 /* Videos.png */; };
+		1AF6E52520192C690063A4C1 /* Profil1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AF6E52420192C690063A4C1 /* Profil1.png */; };
+		1AF6E52B2021211B0063A4C1 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1AF6E5292021211B0063A4C1 /* Model.xcdatamodeld */; };
+		5102DC7ADE1EF888BAEAD603 /* Pods_Sanal_S_n_fUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E2727015860F303E644A680 /* Pods_Sanal_S_n_fUITests.framework */; };
+		5A877C2EEB17C5FAE3193FCC /* Pods_Sanal_S_n_f.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B12F2F469CFAC8E5112825D7 /* Pods_Sanal_S_n_f.framework */; };
+		6A0AD3591FC39C0900B1F963 /* tumDerslerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0AD3581FC39C0900B1F963 /* tumDerslerCell.swift */; };
 		6A0C7AF81FAFA9D9008571FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0C7AF71FAFA9D9008571FB /* AppDelegate.swift */; };
-		6A0C7AFA1FAFA9D9008571FB /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0C7AF91FAFA9D9008571FB /* FirstViewController.swift */; };
-		6A0C7AFC1FAFA9D9008571FB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0C7AFB1FAFA9D9008571FB /* SecondViewController.swift */; };
-		6A0C7AFF1FAFA9D9008571FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A0C7AFD1FAFA9D9008571FB /* Main.storyboard */; };
+		6A0C7AFA1FAFA9D9008571FB /* anasayfaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0C7AF91FAFA9D9008571FB /* anasayfaVC.swift */; };
+		6A0C7AFC1FAFA9D9008571FB /* profilVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0C7AFB1FAFA9D9008571FB /* profilVC.swift */; };
 		6A0C7B011FAFA9D9008571FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A0C7B001FAFA9D9008571FB /* Assets.xcassets */; };
 		6A0C7B041FAFA9D9008571FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A0C7B021FAFA9D9008571FB /* LaunchScreen.storyboard */; };
 		6A0C7B0F1FAFA9DA008571FB /* Sanal_S_n_fTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0C7B0E1FAFA9DA008571FB /* Sanal_S_n_fTests.swift */; };
 		6A0C7B1A1FAFA9DA008571FB /* Sanal_S_n_fUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0C7B191FAFA9DA008571FB /* Sanal_S_n_fUITests.swift */; };
+		6A0C7B281FAFAA4B008571FB /* girisVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0C7B271FAFAA4B008571FB /* girisVC.swift */; };
+		6A0C7B2A1FAFAB51008571FB /* tumDerslerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0C7B291FAFAB51008571FB /* tumDerslerVC.swift */; };
+		6A0C7B2C1FAFAF84008571FB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6A0C7B2B1FAFAF84008571FB /* GoogleService-Info.plist */; };
+		6ADB935F1FB1E5AC004AFCA4 /* profilOlusVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADB935E1FB1E5AC004AFCA4 /* profilOlusVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +81,53 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		085560B6764C5FFF889F2322 /* Pods-Sanal SınıfTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sanal SınıfTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sanal SınıfTests/Pods-Sanal SınıfTests.release.xcconfig"; sourceTree = "<group>"; };
+		1A06F42D20570DE700352AD6 /* odevEkleVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = odevEkleVC.swift; sourceTree = "<group>"; };
+		1A149EA51FED8CD6001206D0 /* derslerimVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = derslerimVC.swift; sourceTree = "<group>"; };
+		1A20A02C2051C32E0029B242 /* duyuruCell2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = duyuruCell2.swift; sourceTree = "<group>"; };
+		1A20A02D2051C32E0029B242 /* duyuruCell2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = duyuruCell2.xib; sourceTree = "<group>"; };
+		1A20A0302051C47A0029B242 /* duyuruCell3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = duyuruCell3.swift; sourceTree = "<group>"; };
+		1A20A0312051C47A0029B242 /* duyuruCell3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = duyuruCell3.xib; sourceTree = "<group>"; };
+		1A20A0342051C8020029B242 /* duyuruCell1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = duyuruCell1.swift; sourceTree = "<group>"; };
+		1A20A0352051C8020029B242 /* duyuruCell1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = duyuruCell1.xib; sourceTree = "<group>"; };
+		1A2482921FEDA18C00E92D00 /* popOverDersTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = popOverDersTableVC.swift; sourceTree = "<group>"; };
+		1A2482FD1FF044A600E92D00 /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		1A32483A20574EFC005353D9 /* pdfGoruntuleVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pdfGoruntuleVC.swift; sourceTree = "<group>"; };
+		1A4687EF204C756A00FCE3A3 /* post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = post.swift; sourceTree = "<group>"; };
+		1A47A6D02021339900D65610 /* resimSec.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = resimSec.png; sourceTree = "<group>"; };
+		1A47A6F520226C4800D65610 /* CoreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreData.swift; sourceTree = "<group>"; };
+		1A55C2AC2072F9A6009BB834 /* odevKontrolTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = odevKontrolTableVC.swift; sourceTree = "<group>"; };
+		1A604C4120114C560007122C /* mainTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainTabBar.swift; sourceTree = "<group>"; };
+		1A6F573820A5093000EB81D5 /* ogrenciKontrolCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ogrenciKontrolCell.swift; sourceTree = "<group>"; };
+		1A6F573920A5093000EB81D5 /* ogrenciKontrolCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ogrenciKontrolCell.xib; sourceTree = "<group>"; };
+		1A6F573C20A8EF9600EB81D5 /* gruplarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gruplarVC.swift; sourceTree = "<group>"; };
+		1A6F573E20A90FAC00EB81D5 /* sohbetCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sohbetCell.swift; sourceTree = "<group>"; };
+		1A746376203D7FFE00D9ABB6 /* profilresmi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profilresmi.png; sourceTree = "<group>"; };
+		1A7F14C820628224004BC15C /* odevKontrolCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = odevKontrolCell.swift; sourceTree = "<group>"; };
+		1A81B798206F055000BC54CA /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		1A9B3D1920685F04008872A1 /* odevKontrolVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = odevKontrolVC.swift; sourceTree = "<group>"; };
+		1AA37DA11FF1D79D00F045ED /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		1AA37DA51FF29C0000F045ED /* duyuruEkleVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = duyuruEkleVC.swift; sourceTree = "<group>"; };
+		1AC66B6B203E316B00F15416 /* duyuruCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = duyuruCell.swift; sourceTree = "<group>"; };
+		1AF6E51020168FAD0063A4C1 /* Activities.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Activities.png; sourceTree = "<group>"; };
+		1AF6E51120168FAD0063A4C1 /* Comment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Comment.png; sourceTree = "<group>"; };
+		1AF6E51220168FAD0063A4C1 /* Demo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Demo.png; sourceTree = "<group>"; };
+		1AF6E51320168FAD0063A4C1 /* Dislike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dislike.png; sourceTree = "<group>"; };
+		1AF6E51420168FAD0063A4C1 /* Explore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Explore.png; sourceTree = "<group>"; };
+		1AF6E51520168FAD0063A4C1 /* Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home.png; sourceTree = "<group>"; };
+		1AF6E51620168FAD0063A4C1 /* Like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Like.png; sourceTree = "<group>"; };
+		1AF6E51720168FAD0063A4C1 /* Options.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Options.png; sourceTree = "<group>"; };
+		1AF6E51820168FAD0063A4C1 /* Profil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Profil.png; sourceTree = "<group>"; };
+		1AF6E51920168FAD0063A4C1 /* Videos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Videos.png; sourceTree = "<group>"; };
+		1AF6E52420192C690063A4C1 /* Profil1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Profil1.png; sourceTree = "<group>"; };
+		1AF6E52A2021211B0063A4C1 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		1E2727015860F303E644A680 /* Pods_Sanal_S_n_fUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sanal_S_n_fUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C0CCF6E8C168AA6569F9DDB /* Pods-Sanal SınıfUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sanal SınıfUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sanal SınıfUITests/Pods-Sanal SınıfUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6A0AD3581FC39C0900B1F963 /* tumDerslerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tumDerslerCell.swift; sourceTree = "<group>"; };
 		6A0C7AF41FAFA9D9008571FB /* Sanal Sınıf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sanal Sınıf.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A0C7AF71FAFA9D9008571FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6A0C7AF91FAFA9D9008571FB /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		6A0C7AFB1FAFA9D9008571FB /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		6A0C7AFE1FAFA9D9008571FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A0C7AF91FAFA9D9008571FB /* anasayfaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = anasayfaVC.swift; sourceTree = "<group>"; };
+		6A0C7AFB1FAFA9D9008571FB /* profilVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profilVC.swift; sourceTree = "<group>"; };
 		6A0C7B001FAFA9D9008571FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A0C7B031FAFA9D9008571FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A0C7B051FAFA9D9008571FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +137,16 @@
 		6A0C7B151FAFA9DA008571FB /* Sanal SınıfUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sanal SınıfUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A0C7B191FAFA9DA008571FB /* Sanal_S_n_fUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sanal_S_n_fUITests.swift; sourceTree = "<group>"; };
 		6A0C7B1B1FAFA9DA008571FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A0C7B271FAFAA4B008571FB /* girisVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = girisVC.swift; sourceTree = "<group>"; };
+		6A0C7B291FAFAB51008571FB /* tumDerslerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tumDerslerVC.swift; sourceTree = "<group>"; };
+		6A0C7B2B1FAFAF84008571FB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6ADB935E1FB1E5AC004AFCA4 /* profilOlusVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = profilOlusVC.swift; sourceTree = "<group>"; };
+		7565298B9554A37D7E031A26 /* Pods_Sanal_S_n_fTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sanal_S_n_fTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8109F02291E77DF09FAF6F2 /* Pods-Sanal Sınıf.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sanal Sınıf.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sanal Sınıf/Pods-Sanal Sınıf.release.xcconfig"; sourceTree = "<group>"; };
+		AC8C5894DFD06B2578D09708 /* Pods-Sanal SınıfUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sanal SınıfUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sanal SınıfUITests/Pods-Sanal SınıfUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B12F2F469CFAC8E5112825D7 /* Pods_Sanal_S_n_f.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sanal_S_n_f.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3A4C09284F0E6D96152BCB7 /* Pods-Sanal Sınıf.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sanal Sınıf.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sanal Sınıf/Pods-Sanal Sınıf.debug.xcconfig"; sourceTree = "<group>"; };
+		EA56CEB24C3B8F4CDBD7D662 /* Pods-Sanal SınıfTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sanal SınıfTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sanal SınıfTests/Pods-Sanal SınıfTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +154,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A877C2EEB17C5FAE3193FCC /* Pods_Sanal_S_n_f.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +162,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1042468F4427463194A12FE3 /* Pods_Sanal_S_n_fTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +170,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5102DC7ADE1EF888BAEAD603 /* Pods_Sanal_S_n_fUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1AF6E50F20168FAD0063A4C1 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				1A81B798206F055000BC54CA /* star.png */,
+				1A47A6D02021339900D65610 /* resimSec.png */,
+				1A746376203D7FFE00D9ABB6 /* profilresmi.png */,
+				1AF6E52420192C690063A4C1 /* Profil1.png */,
+				1AF6E51020168FAD0063A4C1 /* Activities.png */,
+				1AF6E51120168FAD0063A4C1 /* Comment.png */,
+				1AF6E51220168FAD0063A4C1 /* Demo.png */,
+				1AF6E51320168FAD0063A4C1 /* Dislike.png */,
+				1AF6E51420168FAD0063A4C1 /* Explore.png */,
+				1AF6E51520168FAD0063A4C1 /* Home.png */,
+				1AF6E51620168FAD0063A4C1 /* Like.png */,
+				1AF6E51720168FAD0063A4C1 /* Options.png */,
+				1AF6E51820168FAD0063A4C1 /* Profil.png */,
+				1AF6E51920168FAD0063A4C1 /* Videos.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		3FADF34ECF110B60C9795235 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3A4C09284F0E6D96152BCB7 /* Pods-Sanal Sınıf.debug.xcconfig */,
+				A8109F02291E77DF09FAF6F2 /* Pods-Sanal Sınıf.release.xcconfig */,
+				EA56CEB24C3B8F4CDBD7D662 /* Pods-Sanal SınıfTests.debug.xcconfig */,
+				085560B6764C5FFF889F2322 /* Pods-Sanal SınıfTests.release.xcconfig */,
+				AC8C5894DFD06B2578D09708 /* Pods-Sanal SınıfUITests.debug.xcconfig */,
+				4C0CCF6E8C168AA6569F9DDB /* Pods-Sanal SınıfUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6A0C7AEB1FAFA9D9008571FB = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +218,8 @@
 				6A0C7B0D1FAFA9DA008571FB /* Sanal SınıfTests */,
 				6A0C7B181FAFA9DA008571FB /* Sanal SınıfUITests */,
 				6A0C7AF51FAFA9D9008571FB /* Products */,
+				3FADF34ECF110B60C9795235 /* Pods */,
+				87FC3674CB1D375323A19899 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +236,43 @@
 		6A0C7AF61FAFA9D9008571FB /* Sanal Sınıf */ = {
 			isa = PBXGroup;
 			children = (
+				1AF6E50F20168FAD0063A4C1 /* image */,
 				6A0C7AF71FAFA9D9008571FB /* AppDelegate.swift */,
-				6A0C7AF91FAFA9D9008571FB /* FirstViewController.swift */,
-				6A0C7AFB1FAFA9D9008571FB /* SecondViewController.swift */,
-				6A0C7AFD1FAFA9D9008571FB /* Main.storyboard */,
+				6A0C7B271FAFAA4B008571FB /* girisVC.swift */,
+				1A4687EF204C756A00FCE3A3 /* post.swift */,
+				1AA37DA51FF29C0000F045ED /* duyuruEkleVC.swift */,
+				1AC66B6B203E316B00F15416 /* duyuruCell.swift */,
+				6A0C7AF91FAFA9D9008571FB /* anasayfaVC.swift */,
+				6A0C7AFB1FAFA9D9008571FB /* profilVC.swift */,
+				1A55C2AC2072F9A6009BB834 /* odevKontrolTableVC.swift */,
+				6ADB935E1FB1E5AC004AFCA4 /* profilOlusVC.swift */,
+				6A0C7B291FAFAB51008571FB /* tumDerslerVC.swift */,
+				6A0AD3581FC39C0900B1F963 /* tumDerslerCell.swift */,
+				1A149EA51FED8CD6001206D0 /* derslerimVC.swift */,
+				1A604C4120114C560007122C /* mainTabBar.swift */,
+				1A2482FD1FF044A600E92D00 /* Toast.swift */,
+				1A2482921FEDA18C00E92D00 /* popOverDersTableVC.swift */,
+				1A6F573C20A8EF9600EB81D5 /* gruplarVC.swift */,
+				1AA37DA11FF1D79D00F045ED /* Main.storyboard */,
+				1A6F573E20A90FAC00EB81D5 /* sohbetCell.swift */,
+				1A9B3D1920685F04008872A1 /* odevKontrolVC.swift */,
+				1A7F14C820628224004BC15C /* odevKontrolCell.swift */,
+				1A32483A20574EFC005353D9 /* pdfGoruntuleVC.swift */,
+				1A06F42D20570DE700352AD6 /* odevEkleVC.swift */,
 				6A0C7B001FAFA9D9008571FB /* Assets.xcassets */,
+				6A0C7B2B1FAFAF84008571FB /* GoogleService-Info.plist */,
 				6A0C7B021FAFA9D9008571FB /* LaunchScreen.storyboard */,
 				6A0C7B051FAFA9D9008571FB /* Info.plist */,
+				1AF6E5292021211B0063A4C1 /* Model.xcdatamodeld */,
+				1A47A6F520226C4800D65610 /* CoreData.swift */,
+				1A20A02C2051C32E0029B242 /* duyuruCell2.swift */,
+				1A20A02D2051C32E0029B242 /* duyuruCell2.xib */,
+				1A20A0302051C47A0029B242 /* duyuruCell3.swift */,
+				1A20A0312051C47A0029B242 /* duyuruCell3.xib */,
+				1A20A0342051C8020029B242 /* duyuruCell1.swift */,
+				1A20A0352051C8020029B242 /* duyuruCell1.xib */,
+				1A6F573820A5093000EB81D5 /* ogrenciKontrolCell.swift */,
+				1A6F573920A5093000EB81D5 /* ogrenciKontrolCell.xib */,
 			);
 			path = "Sanal Sınıf";
 			sourceTree = "<group>";
@@ -128,6 +295,16 @@
 			path = "Sanal SınıfUITests";
 			sourceTree = "<group>";
 		};
+		87FC3674CB1D375323A19899 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B12F2F469CFAC8E5112825D7 /* Pods_Sanal_S_n_f.framework */,
+				7565298B9554A37D7E031A26 /* Pods_Sanal_S_n_fTests.framework */,
+				1E2727015860F303E644A680 /* Pods_Sanal_S_n_fUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +312,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A0C7B1E1FAFA9DA008571FB /* Build configuration list for PBXNativeTarget "Sanal Sınıf" */;
 			buildPhases = (
+				DE0E0C79071C5794634AE5FD /* [CP] Check Pods Manifest.lock */,
 				6A0C7AF01FAFA9D9008571FB /* Sources */,
 				6A0C7AF11FAFA9D9008571FB /* Frameworks */,
 				6A0C7AF21FAFA9D9008571FB /* Resources */,
+				DBB19CB60E163A832CDFB59C /* [CP] Embed Pods Frameworks */,
+				2D889545C0412F0733ED913D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +332,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A0C7B211FAFA9DA008571FB /* Build configuration list for PBXNativeTarget "Sanal SınıfTests" */;
 			buildPhases = (
+				2BB0B8ED59B2ABBC83155F72 /* [CP] Check Pods Manifest.lock */,
 				6A0C7B061FAFA9DA008571FB /* Sources */,
 				6A0C7B071FAFA9DA008571FB /* Frameworks */,
 				6A0C7B081FAFA9DA008571FB /* Resources */,
+				9402D5A6F88F4302E7F94EC8 /* [CP] Embed Pods Frameworks */,
+				EC5A0E86D587717BF4A56BE1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +353,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A0C7B241FAFA9DA008571FB /* Build configuration list for PBXNativeTarget "Sanal SınıfUITests" */;
 			buildPhases = (
+				5F3D4FDDFBB58135410C0996 /* [CP] Check Pods Manifest.lock */,
 				6A0C7B111FAFA9DA008571FB /* Sources */,
 				6A0C7B121FAFA9DA008571FB /* Frameworks */,
 				6A0C7B131FAFA9DA008571FB /* Resources */,
+				83A067D77B43A9FEA1855AAB /* [CP] Embed Pods Frameworks */,
+				0D0BFEF2326C308A12237226 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,15 +382,18 @@
 				TargetAttributes = {
 					6A0C7AF31FAFA9D9008571FB = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = BQRU2GKF7N;
 						ProvisioningStyle = Automatic;
 					};
 					6A0C7B091FAFA9DA008571FB = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = BQRU2GKF7N;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 6A0C7AF31FAFA9D9008571FB;
 					};
 					6A0C7B141FAFA9DA008571FB = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = BQRU2GKF7N;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 6A0C7AF31FAFA9D9008571FB;
 					};
@@ -235,9 +424,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A20A02F2051C32E0029B242 /* duyuruCell2.xib in Resources */,
+				1AF6E52220168FAD0063A4C1 /* Profil.png in Resources */,
+				1A746377203D7FFE00D9ABB6 /* profilresmi.png in Resources */,
+				1AF6E51F20168FAD0063A4C1 /* Home.png in Resources */,
+				1AF6E51C20168FAD0063A4C1 /* Demo.png in Resources */,
+				1AF6E51A20168FAD0063A4C1 /* Activities.png in Resources */,
+				1AF6E51E20168FAD0063A4C1 /* Explore.png in Resources */,
+				1AF6E52020168FAD0063A4C1 /* Like.png in Resources */,
+				1AF6E51B20168FAD0063A4C1 /* Comment.png in Resources */,
+				1A47A6D12021339900D65610 /* resimSec.png in Resources */,
+				1AF6E52320168FAD0063A4C1 /* Videos.png in Resources */,
+				1A6F573B20A5093000EB81D5 /* ogrenciKontrolCell.xib in Resources */,
+				1A81B799206F055000BC54CA /* star.png in Resources */,
+				1AF6E52120168FAD0063A4C1 /* Options.png in Resources */,
 				6A0C7B041FAFA9D9008571FB /* LaunchScreen.storyboard in Resources */,
+				1AA37DA21FF1D79D00F045ED /* Main.storyboard in Resources */,
+				6A0C7B2C1FAFAF84008571FB /* GoogleService-Info.plist in Resources */,
+				1AF6E52520192C690063A4C1 /* Profil1.png in Resources */,
+				1A20A0332051C47A0029B242 /* duyuruCell3.xib in Resources */,
+				1AF6E51D20168FAD0063A4C1 /* Dislike.png in Resources */,
 				6A0C7B011FAFA9D9008571FB /* Assets.xcassets in Resources */,
-				6A0C7AFF1FAFA9D9008571FB /* Main.storyboard in Resources */,
+				1A20A0372051C8020029B242 /* duyuruCell1.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +465,206 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0D0BFEF2326C308A12237226 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sanal SınıfUITests/Pods-Sanal SınıfUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2BB0B8ED59B2ABBC83155F72 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sanal SınıfTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D889545C0412F0733ED913D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sanal Sınıf/Pods-Sanal Sınıf-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F3D4FDDFBB58135410C0996 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sanal SınıfUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83A067D77B43A9FEA1855AAB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sanal SınıfUITests/Pods-Sanal SınıfUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9402D5A6F88F4302E7F94EC8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sanal SınıfTests/Pods-Sanal SınıfTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBB19CB60E163A832CDFB59C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Sanal Sınıf/Pods-Sanal Sınıf-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AYVibrantButton/AYVibrantButton.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/DLRadioButton/DLRadioButton.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AYVibrantButton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DLRadioButton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libwebp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sanal Sınıf/Pods-Sanal Sınıf-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE0E0C79071C5794634AE5FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sanal Sınıf-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC5A0E86D587717BF4A56BE1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sanal SınıfTests/Pods-Sanal SınıfTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6A0C7AF01FAFA9D9008571FB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A0C7AFC1FAFA9D9008571FB /* SecondViewController.swift in Sources */,
+				6A0C7AFC1FAFA9D9008571FB /* profilVC.swift in Sources */,
+				6A0C7B2A1FAFAB51008571FB /* tumDerslerVC.swift in Sources */,
 				6A0C7AF81FAFA9D9008571FB /* AppDelegate.swift in Sources */,
-				6A0C7AFA1FAFA9D9008571FB /* FirstViewController.swift in Sources */,
+				1A6F573A20A5093000EB81D5 /* ogrenciKontrolCell.swift in Sources */,
+				6ADB935F1FB1E5AC004AFCA4 /* profilOlusVC.swift in Sources */,
+				1A9B3D1A20685F04008872A1 /* odevKontrolVC.swift in Sources */,
+				1A47A6F620226C4800D65610 /* CoreData.swift in Sources */,
+				1A20A0362051C8020029B242 /* duyuruCell1.swift in Sources */,
+				1A7F14C920628224004BC15C /* odevKontrolCell.swift in Sources */,
+				1A20A0322051C47A0029B242 /* duyuruCell3.swift in Sources */,
+				1A604C4220114C560007122C /* mainTabBar.swift in Sources */,
+				1A20A02E2051C32E0029B242 /* duyuruCell2.swift in Sources */,
+				1A55C2AD2072F9A6009BB834 /* odevKontrolTableVC.swift in Sources */,
+				1A149EA61FED8CD6001206D0 /* derslerimVC.swift in Sources */,
+				1A2482931FEDA18C00E92D00 /* popOverDersTableVC.swift in Sources */,
+				1A06F42E20570DE700352AD6 /* odevEkleVC.swift in Sources */,
+				1A6F573F20A90FAC00EB81D5 /* sohbetCell.swift in Sources */,
+				6A0C7AFA1FAFA9D9008571FB /* anasayfaVC.swift in Sources */,
+				1A2482FE1FF044A600E92D00 /* Toast.swift in Sources */,
+				1A6F573D20A8EF9600EB81D5 /* gruplarVC.swift in Sources */,
+				6A0AD3591FC39C0900B1F963 /* tumDerslerCell.swift in Sources */,
+				1A4687F0204C756A00FCE3A3 /* post.swift in Sources */,
+				1AC66B6C203E316B00F15416 /* duyuruCell.swift in Sources */,
+				6A0C7B281FAFAA4B008571FB /* girisVC.swift in Sources */,
+				1AF6E52B2021211B0063A4C1 /* Model.xcdatamodeld in Sources */,
+				1A32483B20574EFC005353D9 /* pdfGoruntuleVC.swift in Sources */,
+				1AA37DA61FF29C0000F045ED /* duyuruEkleVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +700,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6A0C7AFD1FAFA9D9008571FB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6A0C7AFE1FAFA9D9008571FB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6A0C7B021FAFA9D9008571FB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -341,9 +733,11 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = BQRU2GKF7N;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -360,7 +754,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -392,9 +786,11 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = BQRU2GKF7N;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -405,7 +801,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -416,9 +812,13 @@
 		};
 		6A0C7B1F1FAFA9DA008571FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3A4C09284F0E6D96152BCB7 /* Pods-Sanal Sınıf.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = BQRU2GKF7N;
 				INFOPLIST_FILE = "Sanal Sınıf/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ibrhmdn.Sanal-S-n-f";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -428,9 +828,13 @@
 		};
 		6A0C7B201FAFA9DA008571FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8109F02291E77DF09FAF6F2 /* Pods-Sanal Sınıf.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = BQRU2GKF7N;
 				INFOPLIST_FILE = "Sanal Sınıf/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ibrhmdn.Sanal-S-n-f";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -440,10 +844,13 @@
 		};
 		6A0C7B221FAFA9DA008571FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA56CEB24C3B8F4CDBD7D662 /* Pods-Sanal SınıfTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BQRU2GKF7N;
 				INFOPLIST_FILE = "Sanal SınıfTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ibrhmdn.Sanal-S-n-fTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -454,10 +861,13 @@
 		};
 		6A0C7B231FAFA9DA008571FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 085560B6764C5FFF889F2322 /* Pods-Sanal SınıfTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BQRU2GKF7N;
 				INFOPLIST_FILE = "Sanal SınıfTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ibrhmdn.Sanal-S-n-fTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -468,12 +878,17 @@
 		};
 		6A0C7B251FAFA9DA008571FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC8C5894DFD06B2578D09708 /* Pods-Sanal SınıfUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = BQRU2GKF7N;
 				INFOPLIST_FILE = "Sanal SınıfUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ibrhmdn.Sanal-S-n-fUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "Sanal Sınıf";
 			};
@@ -481,12 +896,17 @@
 		};
 		6A0C7B261FAFA9DA008571FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C0CCF6E8C168AA6569F9DDB /* Pods-Sanal SınıfUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = BQRU2GKF7N;
 				INFOPLIST_FILE = "Sanal SınıfUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ibrhmdn.Sanal-S-n-fUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "Sanal Sınıf";
 			};
@@ -511,6 +931,7 @@
 				6A0C7B201FAFA9DA008571FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A0C7B211FAFA9DA008571FB /* Build configuration list for PBXNativeTarget "Sanal SınıfTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +940,7 @@
 				6A0C7B231FAFA9DA008571FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A0C7B241FAFA9DA008571FB /* Build configuration list for PBXNativeTarget "Sanal SınıfUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,8 +949,22 @@
 				6A0C7B261FAFA9DA008571FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1AF6E5292021211B0063A4C1 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1AF6E52A2021211B0063A4C1 /* Model.xcdatamodel */,
+			);
+			currentVersion = 1AF6E52A2021211B0063A4C1 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 6A0C7AEC1FAFA9D9008571FB /* Project object */;
 }

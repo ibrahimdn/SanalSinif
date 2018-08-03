@@ -7,3 +7,14 @@
 //
 
 import Foundation
+import UIKit
+
+class mainTabBar : UITabBarController {
+    
+    
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    
+}

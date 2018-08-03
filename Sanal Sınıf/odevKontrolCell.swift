@@ -8,17 +8,32 @@
 
 import UIKit
 
-class odevKontrolCell: UITableViewCell {
+protocol cellDelegate {
+    func didodevClicked(cell:UITableViewCell)
+  
+}
 
+class odevKontrolCell: UITableViewCell {
+  
+    var delegate :cellDelegate?
+    
+    @IBOutlet weak var dosyAdiLabel: UILabel!
+   
+    @IBOutlet weak var ogrenciAdiLabel: UILabel!
+    @IBOutlet weak var odevClicked: UIButton!
+   
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
-
+    
+    @IBAction func odevClicked(_ sender: UIButton) {
+       print("odev Clicked")
+        delegate?.didodevClicked(cell: self)
+    }
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
-        // Configure the view for the selected state
     }
 
 }

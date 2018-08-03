@@ -15,10 +15,14 @@ class ogrenciKontrolCell: UITableViewCell {
         // Initialization code
     }
 
+    @IBOutlet weak var isimLabel: UILabel!
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state
     }
-    
+    func customInit(text: String, accessoryText: String){
+        self.isimLabel.text = text
+        
+    }
 }

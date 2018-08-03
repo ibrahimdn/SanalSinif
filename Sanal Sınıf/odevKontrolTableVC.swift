@@ -15,7 +15,7 @@ import MBProgressHUD
 import Alamofire
 import WebKit
 class odevKontrolTableVC: UITableViewController,cellDelegate {
-   
+
     var postID = String()
     var dersID = String()
     var odevBilgisi = [odev]()
@@ -29,6 +29,9 @@ class odevKontrolTableVC: UITableViewController,cellDelegate {
       
     }
     
+    @IBAction func odevlerTableClicked(_ sender: UIBarButtonItem) {
+        self.dismiss(animated: true, completion: nil)        
+    }
     func didodevClicked(cell: UITableViewCell) {
         let index = self.tableView.indexPath(for: cell)
         print((index?.row)!)
@@ -54,32 +57,18 @@ class odevKontrolTableVC: UITableViewController,cellDelegate {
                     if  let urlString = self.fileLocalURLDict[0] {
                         vc.url = urlString
                         self.navigationController?.pushViewController(vc, animated: false)
-                        // performSegue(withIdentifier: "toPdfGoruntuleVC", sender: nil)
+                        self.performSegue(withIdentifier: "toPdfGoruntuleyici2", sender: nil)
                     }
                 }
             }
         }
     }
-    
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-    // MARK: - Table view data source
-
-   /* override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 1
-    }*/
-
+   
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
         return odevBilgisi.count
     }
 
-    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! odevKontrolCell
         cell.dosyAdiLabel.text = odevBilgisi[indexPath.row].dosyaAdi
@@ -104,7 +93,15 @@ class odevKontrolTableVC: UITableViewController,cellDelegate {
         })
         self.tableView.reloadData()
     }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+            if segue.identifier == "toPdfGoruntuleyici2" {
+                let destination = segue.destination as! pdfGoruntuleVC
+                destination.url = fileLocalURLDict[0]!
+        }
 
+    }
+    
     /*
     // Override to support conditional editing of the table view.
     override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
